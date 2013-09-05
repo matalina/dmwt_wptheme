@@ -1,0 +1,23 @@
+#wtdb_character_user label,
+#wtdb_character_char label,
+#wtdb_character_details label,
+#wtdb_character_op label,
+#wtdb_character_special label,
+#wtdb_character_novice label,
+#wtdb_character_accepted label,
+#wtdb_character_ws label,
+#wtdb_character_alts label,
+#wtdb_character_return label,
+#wtdb_character_notes label {
+	width: 200px;
+	display: inline-block;
+}
+.short_label {
+	width: 50px !important;
+}
+#wtdb_character_notes textarea {
+	width: 100%;
+	height: 400px;
+}
+#wtdb_character_notes br {
+}

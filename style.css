@@ -1,0 +1,85 @@
+/*
+Theme Name:     Twenty Ten Child Theme for White Tower Database
+Theme URI:      http: //whitetower.aliciawilkerson.com
+Description:    Child theme for the Twenty Ten theme for the White Tower Database
+Author:         Alicia Wilkerson
+Author URI:     http: //alicia.wilkersons.us
+Template:       twentyten
+Version:        0.1.0
+*/
+
+@import url("../twentyten/style.css");
+
+/* White Tower Database Styles Go Here */
+
+strong.label {
+	display: inline-block;
+	width: 150px;
+}
+
+#opscore td, #optable td {
+	text-align: center;
+}
+
+.one-column #content {
+	width: 900px;
+}
+
+/* Cosmetic Styles */
+#wrapper {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+  -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+  box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+
+}
+
+#site-title, #site-description {
+	position: absolute;
+	left: -9999em;
+}
+
+#branding img{
+	border-bottom: 1px solid #154655;
+ 	border-top: 4px solid #154655;
+}
+#access {
+	background: #154655;
+}
+
+#access a {
+	color: #ffffff;
+}
+
+#access ul ul a {
+	background: #154655;
+}
+#access li:hover > a,
+#access ul ul :hover > a {
+	background: #23738c;
+	color: #ffffff;
+}
+
+a:link {
+	color: #23738c;
+}
+a:visited {
+	color: #23738c;
+}
+a:hover, a:focus {
+	color: #154655;
+}
+
+.wpcf7 label span {
+	display: block;
+	width: 7d00px;
+}
+.wpcf7 textarea {
+	width: 700px;
+}
+
+.wtdb_table th, .no_wtdb_table th{
+	background: #eeeeee;
+}
